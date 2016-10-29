@@ -1,10 +1,7 @@
 (function() {
     "use strict";
 
-    // https://developer.mozilla.org/pt-BR/docs/Web/API/document/querySelectorAll
     let config = {
-        // objeto como parametro para document.querySelectorAll
-        // em changeFonts(config) no arquivo script.js.
         selector: 'td, td *',
     };
 

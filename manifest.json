@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "LooksBetter",
+    "name": "Visu",
     "version": "0.0.1",
     "description": "leave the github like its IDE.",
 
@@ -14,7 +14,7 @@
             "19" : "icon19.png",
             "38" : "icon38.png"
         },
-        "default_title": "LooksBetter",
+        "default_title": "Visu",
         "default_popup": "popup.html"
     },
 
