@@ -1,11 +1,20 @@
 @font-face {
-  font-family: MyHelvetica;
-  src: local("Monospace"),
-       local("Monaco"),
-  font-weight: bold;
+    font-family: MyHelvetica;
+    src: local("Monospace"),
+         local("Monaco"),
+    font-weight: bold;
 }
 
-pre, td {
+pre,
+td,
+.tree-holder,
+.file-content,
+code {
+    /*
+	* github -> pre, td
+	* gitlab -> .tree-holder, file-content, code
+	*
+	* */
     font-family: 'Monaco', 'Inconsolata' !important;
     font-size: 13px !important;
 }

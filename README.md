@@ -1,4 +1,4 @@
 # visu
 
-visu change type and size of font in github.
+visu changes font type and size in github and gitlab.
 

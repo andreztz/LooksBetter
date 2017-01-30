@@ -31,9 +31,9 @@
         "persistent": false
     },
 
-    "content_scripts": [ {
-        "js": [ "inject/jquery.js"],
-        "css": [ "inject/better.css" ],
-        "matches": [ "https://*.github.com/*" ]
-    } ]
+    "content_scripts": [{
+        "js": ["inject/jquery.js"],
+        "css": ["inject/better.css"],
+        "matches": ["https://*.github.com/*", "https://gitlab.com/*"]
+    }]
 }
