@@ -1,4 +1,4 @@
 # visu
 
-visu changes font type and size in github and gitlab.
+Chrome Extension - Changes font properties in github and gitlab.
 
