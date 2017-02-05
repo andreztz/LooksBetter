@@ -26,7 +26,7 @@
             )
         }
     });
-
+    
     $('.font-list').on('input', function(event) {
         event.preventDefault();
         config.fontId = $(this).val();

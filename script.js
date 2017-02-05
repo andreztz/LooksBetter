@@ -13,8 +13,7 @@ var changeFont = function(config) {
         elem => {
             elem.style.fontFamily = config.fontId;
             elem.style.fontSize = config.fontSize + 'px'
-        }
-    );
+        });
 
 };
 changeFont(config);
