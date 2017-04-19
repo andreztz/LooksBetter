@@ -1,4 +1,4 @@
 # visu
 
-Chrome Extension - Changes font properties on github.
+Chrome Extension changes the font properties in github.
 
