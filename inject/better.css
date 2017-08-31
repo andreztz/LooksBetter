@@ -1,7 +1,7 @@
 @font-face {
     font-family: MyHelvetica;
     src: local("Monospace"),
-         local("Monaco"),
+         local("Monaco");
     font-weight: bold;
 }
 
@@ -16,5 +16,5 @@ code {
 	*
 	* */
     font-family: 'Monaco', 'Inconsolata' !important;
-    font-size: 13px !important;
+    font-size: 13px !important; 
 }

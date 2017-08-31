@@ -1,19 +1,24 @@
 "use strict";
 
 var changeFont = function(config) {
-    if (config.domain == 'github') {
-        var elements = document.querySelectorAll(config.selector_github);
+    let elements = [];
+    chrome.storage.sync.set({'font': config.fontId, 'fontsize': config.fontSize});
+
+    if (config.domain === 'github.com') {
+        elements = document.querySelectorAll(config.selector_github);
     }
-    if (config.domain == 'gitlab.com') {
-        var elements = document.querySelectorAll(config.selector_gitlab);
-        console.log(elements);
+    if (config.domain === 'gitlab.com') {
+        elements = document.querySelectorAll(config.selector_gitlab);
     }
 
     elements.forEach(
         elem => {
             elem.style.fontFamily = config.fontId;
-            elem.style.fontSize = config.fontSize + 'px'
-        });
+            elem.style.fontSize = config.fontSize + 'px';
+        }
+    );
+    
+
 
 };
 changeFont(config);

@@ -24,16 +24,17 @@
         "<all_urls>",
         "declarativeContent",
         "storage"
+  
     ],
-
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
 
     "content_scripts": [{
         "js": ["inject/jquery.js"],
         "css": ["inject/better.css"],
         "matches": ["https://*.github.com/*", "https://gitlab.com/*"]
-    }]
+    }],
+    
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
 }
